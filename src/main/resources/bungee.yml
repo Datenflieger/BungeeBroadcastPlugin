@@ -1,0 +1,10 @@
+name: BroadcastPlugin
+version: '${project.version}'
+main: com.datenflieger.broadcastplugin.BroadcastPlugin
+servers:
+  lobby:
+    address: localhost:40000
+  oneblock:
+    address: localhost:40002
+  dev:
+    address: localhost:40004
